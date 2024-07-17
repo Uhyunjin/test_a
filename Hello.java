@@ -5,5 +5,8 @@ class Hello
 		GoodsDAO gDao=new GoodsDAO();
 		gDao.insert();
 		gDao.update();
+
+		MemberDAO mDao = new MemberDAO();
+		mDao.insert();
 	}
 }
